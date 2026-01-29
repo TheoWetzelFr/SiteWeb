@@ -26,8 +26,8 @@ header {
 }
 
 header img {
-    display: block;
-    margin-bottom: 1rem;
+    max-width: 100%;
+    height: auto;
 }
 
 .titre_principal {
@@ -119,13 +119,7 @@ footer a {
     header, main, footer {
         padding: 1rem;
     }
-
-    header img {
-        max-width: 100%;
-        height: auto;
-    }
-
-
+    
     .titre_principal {
         font-size: 1.6rem;
     }
@@ -163,5 +157,6 @@ footer a {
         font-size: 1.8rem;
     }
 }
+
 
 
